@@ -1,7 +1,7 @@
-import powerAmplifierImage from '../../assets/product/Audio & Pro Power Amplifier.webp';
-import djAmplifierImage from '../../assets/product/DJ-5000W-Power-Amplifier.webp';
-import hiFiAmplifierImage from '../../assets/product/PBT-701-Power-Amplifier.webp';
-import audioMixerImage from '../../assets/product/12 Channel Professional Audio Mixer.webp';
+import powerAmplifierImage from '../../assets/product/Audio&Pro Professional Power Amplifier.webp';
+import djAmplifierImage from '../../assets/product/Audio&Pro 5000W Professional Power Amplifier.webp';
+import hiFiAmplifierImage from '../../assets/product/Audio&Pro PBT 701 Professional Power Amplifier.webp';
+import audioMixerImage from '../../assets/product/Audio&Pro Professional Audio Mixer.webp';
 
 export const siteData = {
   brand: {
