@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Zap } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import type { Product } from '@/data/products';
 import { ProductImage } from './ProductImage';
-import { extractPowerValue } from '@/utils/filters';
 import { usePrefersReducedMotion } from '@/hooks/usePrefersReducedMotion';
 
 interface ProductCardProps {
@@ -13,12 +12,6 @@ interface ProductCardProps {
 
 export function ProductCard({ product, index = 0 }: ProductCardProps) {
   const reduced = usePrefersReducedMotion();
-  const power = extractPowerValue(product);
-  const powerLabel = product.power.rms
-    ? `${product.power.rms} RMS`
-    : product.power.max
-      ? `${product.power.max} Max`
-      : product.power.output || '';
 
   return (
     <motion.div
@@ -40,17 +33,6 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
               className="h-full w-full"
               imgClassName="transition-transform duration-700 group-hover:scale-105"
             />
-            <div className="absolute left-4 top-4 z-10">
-              <span className="chip border-pro-red/30 bg-pro-red/10 text-pro-red-light">
-                {product.subCategory}
-              </span>
-            </div>
-            {power > 0 && (
-              <div className="absolute right-4 top-4 z-10 flex items-center gap-1.5 rounded-full border border-[#E1E4E8] bg-white/95 px-3 py-1 backdrop-blur-sm">
-                <Zap className="h-3 w-3 text-pro-red" />
-                <span className="text-[11px] font-semibold text-[#1A1A1A]">{powerLabel}</span>
-              </div>
-            )}
           </div>
 
           <div className="p-5">
