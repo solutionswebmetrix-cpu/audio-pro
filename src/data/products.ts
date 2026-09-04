@@ -2,27 +2,30 @@ import img12BlackRed from '../../assets/product/Audio&Pro Clear & Dynamic Audio 
 import img12Professional from '../../assets/product/Audio&Pro Clear & Dynamic Professional Mixer.webp';
 import img12Channel from '../../assets/product/Audio&Pro Eco Sound Professional Audio Mixer.webp';
 import img120 from '../../assets/product/Audio&Pro 120W Professional Power Amplifier.webp';
+import img120Generic from '../../assets/product/120W Professional Power Amplifier.webp';
 import img1600Gold from '../../assets/product/Audio&Pro 1600W Power Amplifier.webp';
 import img1600 from '../../assets/product/Audio&Pro 1600W Professional Power Amplifier.webp';
 import img1600Two from '../../assets/product/1600W Professional Power Amplifier.webp';
-import img1600W from '../../assets/product/1600W Professional Power Amplifier.webp';
 import img2000Dual from '../../assets/product/Audio&Pro 2000W Professional Power Amplifier.webp';
 import img2000 from '../../assets/product/2000W Power Amplifier.webp';
 import img316 from '../../assets/product/Audio&Pro Professional Power Amplifier.webp';
 import img350 from '../../assets/product/Audio&Pro Professional Power Amplifier (2).webp';
-import img4000 from '../../assets/product/Audio&Pro 4000W Professional Transformer.webp';
+import img4000 from '../../assets/product/4000W Professional Transformer (2).webp';
 import img6Blue from '../../assets/product/Audio&Pro Professional Audio Mixer.webp';
+import img500Speaker from '../../assets/product/Audio&Pro 500 speaker.webp';
+import img500WSpeaker from '../../assets/product/Audio&Pro 500W speaker.webp';
 import img601 from '../../assets/product/Audio&Pro 601 Professional Power Amplifier.webp';
+import img601Generic from '../../assets/product/Audio&Pro 601 Power Amplifier.webp';
 import img7000W from '../../assets/product/Audio&Pro 7000W Professional Power Amplifier.webp';
 import img8000W from '../../assets/product/Audio&Pro 8000W Professional Power Amplifier.webp';
+import img8000Generic from '../../assets/product/Audio&Pro 8000W Power Amplifier.webp';
 import imgAp6000 from '../../assets/product/Audio&Pro 6000W Professional Power Amplifier.webp';
 import imgAp6000Alt from '../../assets/product/Audio&Pro Professional Power Amplifier (3).webp';
 import imgAp6000Front from '../../assets/product/Audio&Pro Professional Power Amplifier (4).webp';
 import imgAp7000 from '../../assets/product/Audio&Pro 7000W Power Amplifier.webp';
 import imgAp8000 from '../../assets/product/Audio&Pro AP-8000 Professional Power Amplifier.webp';
-import imgAudioProAmp from '../../assets/product/Audio&Pro Professional Power Amplifier.webp';
+import imgAp8000Generic from '../../assets/product/Audio&Pro AP-8000 Power Amplifier.webp';
 import imgSpeakerSeries from '../../assets/product/Audio&Pro AP 500 Professional Speaker.webp';
-import imgChatSpeaker from '../../assets/product/Audio&Pro AP 500 Professional Speaker.webp';
 import imgDj5000 from '../../assets/product/Audio&Pro 5000W Professional Power Amplifier.webp';
 import imgEchoMix from '../../assets/product/Audio&Pro Echo Mix Professional Audio Mixer.webp';
 import imgEchoMixAlt from '../../assets/product/Audio&Pro Echo Mix Audio Mixer.webp';
@@ -31,16 +34,13 @@ import imgPbt501 from '../../assets/product/Audio&Pro PBT 501 Professional Power
 import imgPbt501Alt from '../../assets/product/PBT 501 Power Amplifier (2).webp';
 import imgPbt701 from '../../assets/product/Audio&Pro PBT 701 Professional Power Amplifier.webp';
 import imgPbt701Alt from '../../assets/product/PBT 701 Power Amplifier.webp';
-import imgPbt701Front from '../../assets/product/Audio&Pro PBT 701 Professional Power Amplifier.webp';
-import imgGoldFront from '../../assets/product/Audio&Pro Professional Power Amplifier (2).webp';
 import imgVerticalMixer from '../../assets/product/Audio&Pro Professional Audio Mixer (2).webp';
-import imgBlueSilver from '../../assets/product/Audio&Pro Professional Power Amplifier (3).webp';
-import imgProfessionalWoofer from '../../assets/product/Audio&Pro AP 500 Professional Speaker.webp';
 import imgMixer2 from '../../assets/product/Audio&Pro Professional Audio Mixer (3).webp';
-import imgMixer3 from '../../assets/product/Audio&Pro Professional Audio Mixer.webp';
-import imgMixer from '../../assets/product/Audio&Pro Eco Sound Professional Audio Mixer.webp';
 import imgBlueAmp from '../../assets/product/Audio&Pro BJX-3K2 Professional Power Amplifier.webp';
-import imgXp1500 from '../../assets/product/Audio&Pro XP1500 Power Amplifier.webp';
+import imgBjx from '../../assets/product/Audio&Pro BJX-3K2 Power Amplifier.webp';
+import imgXp15000 from '../../assets/product/Audio&Pro XP-15000 Power Amplifier.webp';
+import imgXp15000Professional from '../../assets/product/Audio&Pro XP-15000 Professional Power Amplifier.webp';
+import imgXp1500 from '../../assets/product/XP1500 Power Amplifier (3).webp';
 import imgXp1500Alt from '../../assets/product/XP1500 Power Amplifier.webp';
 
 export type ProductCategory = 'Amplifiers' | 'Mixers' | 'Speakers';
@@ -76,7 +76,7 @@ export const products: Product[] = [
   makeProduct({ id: '1600-goldblack-amplifier', name: 'Audio&Pro 1600 Watt GoldBlack', model: '1600W', image: img1600Gold, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { max: '1600W', output: '1600W' }, featured: true }),
   makeProduct({ id: '1600-watt-amplifier', name: 'Audio&Pro 1600 Watt', model: '1600W', image: img1600, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { max: '1600W', output: '1600W' } }),
   makeProduct({ id: '1600w-amplifier-2', name: 'Audio&Pro 1600W Professional', model: '1600W-2', image: img1600Two, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { max: '1600W', output: '1600W' } }),
-  makeProduct({ id: '1600w-amplifier', name: 'Audio&Pro 1600W', model: '1600W', image: img1600W, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { max: '1600W', output: '1600W' } }),
+  makeProduct({ id: '120w-professional-amplifier', name: '120W Professional Power Amplifier', model: '120W Professional', image: img120Generic, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { max: '120W', output: '120W' } }),
   makeProduct({ id: '2000w-dual-channel', name: 'Audio&Pro 2000W Dual Channel', model: '2000W Dual Channel', image: img2000Dual, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { rms: '2000W', output: '1000W + 1000W' }, featured: true }),
   makeProduct({ id: '2000w-amplifier', name: 'Audio&Pro 2000W', model: '2000W', image: img2000, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { max: '2000W', output: '2000W' } }),
   makeProduct({ id: '316w-amplifier', name: 'Audio&Pro 316W', model: '316W', image: img316, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { rms: '316W', output: '316W RMS' }, featured: true }),
@@ -90,26 +90,26 @@ export const products: Product[] = [
   makeProduct({ id: 'ap-6000-front', name: 'Audio&Pro AP-6000 Front', model: 'AP-6000 Front', image: imgAp6000Front, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { rms: '4000W', max: '8000W', output: '4000W RMS / 8000W Max' } }),
   makeProduct({ id: 'ap-7000', name: 'Audio&Pro AP-7000 Professional', model: 'AP-7000', image: imgAp7000, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { rms: '7000W', output: '3500W + 3500W' }, featured: true }),
   makeProduct({ id: 'ap-8000', name: 'Audio&Pro AP-8000 DJ', model: 'AP-8000', image: imgAp8000, category: 'Amplifiers', subCategory: 'DJ Amplifier', power: { rms: '8000W', output: '4000W + 4000W' }, featured: true }),
-  makeProduct({ id: 'audio-pro-power-amplifier', name: 'Audio&Pro Power Amplifier', model: 'Professional Power Amplifier', image: imgAudioProAmp, category: 'Amplifiers', subCategory: 'Power Amplifier' }),
+  makeProduct({ id: 'xp-15000', name: 'Audio&Pro XP-15000', model: 'XP-15000', image: imgXp15000, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { max: '15000W', output: '15000W' }, featured: true }),
   makeProduct({ id: 'aps-speaker-woofer', name: 'Audio&Pro APS Speaker Woofer', model: 'APS Series', image: imgSpeakerSeries, category: 'Speakers', subCategory: 'Speaker Woofer', notes: 'Audio&Pro APS Series speaker woofer', featured: true }),
-  makeProduct({ id: 'speaker-woofer', name: 'Audio&Pro Speaker Woofer', model: 'Professional Woofer', image: imgChatSpeaker, category: 'Speakers', subCategory: 'Speaker Woofer', notes: 'Professional speaker woofer' }),
+  makeProduct({ id: '500-speaker-woofer', name: 'Audio&Pro 500 speaker', model: '500 speaker', image: img500Speaker, category: 'Speakers', subCategory: 'Speaker Woofer', notes: 'Audio&Pro 500 speaker woofer' }),
   makeProduct({ id: 'dj-5000w', name: 'Audio&Pro DJ 5000W', model: 'DJ-5000W', image: imgDj5000, category: 'Amplifiers', subCategory: 'DJ Amplifier', power: { max: '5000W', output: '5000W' }, featured: true }),
   makeProduct({ id: 'echo-mix', name: 'Audio&Pro Echo Mix', model: 'Echo Mix', image: imgEchoMix, gallery: [imgEchoMixAlt], category: 'Mixers', subCategory: 'Digital Echo Mixer', channels: '6 Mic/Line', notes: '6-channel mixer with echo and delay control', featured: true }),
   makeProduct({ id: 'echo-mix-audio', name: 'Audio&Pro Echo Mix Audio Mixer', model: 'Echo-Mix', image: imgEchoMixAlt, category: 'Mixers', subCategory: 'Audio Mixer', channels: '6 Mic/Line' }),
   makeProduct({ id: 'mt1201', name: 'Audio&Pro MT1201', model: 'MT1201', image: imgMt1201, category: 'Amplifiers', subCategory: 'Power Amplifier' }),
   makeProduct({ id: 'pbt-501', name: 'Audio&Pro PBT 501', model: 'PBT-501', image: imgPbt501, gallery: [imgPbt501Alt], category: 'Amplifiers', subCategory: 'Power Amplifier', power: { rms: '500W', output: '500W RMS' }, featured: true }),
   makeProduct({ id: 'pbt-501-front', name: 'Audio&Pro PBT 501 Front', model: 'PBT-501 Front', image: imgPbt501Alt, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { rms: '500W', output: '500W RMS' } }),
-  makeProduct({ id: 'pbt-701', name: 'Audio&Pro PBT 701', model: 'PBT-701', image: imgPbt701, gallery: [imgPbt701Alt, imgPbt701Front], category: 'Amplifiers', subCategory: 'Hi-Fi Amplifier', power: { rms: '700W', output: '700W RMS' }, featured: true }),
+  makeProduct({ id: 'pbt-701', name: 'Audio&Pro PBT 701', model: 'PBT-701', image: imgPbt701, gallery: [imgPbt701Alt, imgAp6000Alt], category: 'Amplifiers', subCategory: 'Hi-Fi Amplifier', power: { rms: '700W', output: '700W RMS' }, featured: true }),
   makeProduct({ id: 'pbt-701-alt', name: 'Audio&Pro PBT 701 Hi-Fi', model: 'PBT-701 Hi-Fi', image: imgPbt701Alt, category: 'Amplifiers', subCategory: 'Hi-Fi Amplifier', power: { rms: '700W', output: '700W RMS' } }),
-  makeProduct({ id: 'pbt-701-front', name: 'Audio&Pro PBT 701 Front', model: 'PBT-701 Front', image: imgPbt701Front, category: 'Amplifiers', subCategory: 'Hi-Fi Amplifier', power: { rms: '700W', output: '700W RMS' } }),
-  makeProduct({ id: 'pbt-701-front-view', name: 'Audio&Pro PBT 701 Front View', model: 'PBT-701 Front View', image: imgPbt701Front, category: 'Amplifiers', subCategory: 'Hi-Fi Amplifier', power: { rms: '700W', output: '700W RMS' } }),
-  makeProduct({ id: 'goldblack-amplifier', name: 'Audio&Pro GoldBlack Power Amplifier', model: 'GoldBlack', image: imgGoldFront, category: 'Amplifiers', subCategory: 'Power Amplifier' }),
+  makeProduct({ id: 'pbt-701-front', name: 'Audio&Pro PBT 701 Front', model: 'PBT-701 Front', image: imgAp6000Alt, category: 'Amplifiers', subCategory: 'Hi-Fi Amplifier', power: { rms: '700W', output: '700W RMS' } }),
+  makeProduct({ id: '601-power-amplifier', name: 'Audio&Pro 601 Power Amplifier', model: '601', image: img601Generic, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { rms: '600W', output: '600W RMS' } }),
+  makeProduct({ id: 'xp-15000-professional', name: 'Audio&Pro XP-15000 Professional', model: 'XP-15000 Professional', image: imgXp15000Professional, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { max: '15000W', output: '15000W' } }),
   makeProduct({ id: 'vertical-mixer', name: 'Audio&Pro Professional Vertical Mixer', model: 'Professional Vertical', image: imgVerticalMixer, category: 'Mixers', subCategory: 'Audio Mixer', channels: 'Professional channels' }),
-  makeProduct({ id: 'bluesilver-amplifier', name: 'Audio&Pro BlueSilver Power Amplifier', model: 'BlueSilver', image: imgBlueSilver, category: 'Amplifiers', subCategory: 'Power Amplifier' }),
-  makeProduct({ id: 'professional-speaker-woofer', name: 'Audio&Pro Professional Speaker Woofer', model: 'Professional Woofer', image: imgProfessionalWoofer, category: 'Speakers', subCategory: 'Speaker Woofer', notes: 'Professional speaker woofer' }),
+  makeProduct({ id: 'bjx-3k2-amplifier', name: 'Audio&Pro BJX-3K2 Power Amplifier', model: 'BJX-3K2', image: imgBjx, category: 'Amplifiers', subCategory: 'Power Amplifier' }),
+  makeProduct({ id: '500w-speaker-woofer', name: 'Audio&Pro 500W speaker', model: '500W speaker', image: img500WSpeaker, category: 'Speakers', subCategory: 'Speaker Woofer', notes: 'Audio&Pro 500W speaker woofer' }),
   makeProduct({ id: 'professional-mixer-2', name: 'Audio&Pro Professional Audio Mixer 2', model: 'Professional Mixer 2', image: imgMixer2, category: 'Mixers', subCategory: 'Audio Mixer', channels: 'Professional channels' }),
-  makeProduct({ id: 'professional-mixer-3', name: 'Audio&Pro Professional Audio Mixer 3', model: 'Professional Mixer 3', image: imgMixer3, category: 'Mixers', subCategory: 'Audio Mixer', channels: 'Professional channels' }),
-  makeProduct({ id: 'professional-mixer', name: 'Audio&Pro Professional Audio Mixer', model: 'Professional Mixer', image: imgMixer, category: 'Mixers', subCategory: 'Audio Mixer', channels: 'Professional channels', notes: 'Professional audio mixer with multiple input channels' }),
+  makeProduct({ id: 'ap-8000-power-amplifier', name: 'Audio&Pro AP-8000 Power Amplifier', model: 'AP-8000', image: imgAp8000Generic, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { max: '8000W', output: '8000W' } }),
+  makeProduct({ id: '8000w-amplifier', name: 'Audio&Pro 8000W Power Amplifier', model: '8000W', image: img8000Generic, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { max: '8000W', output: '8000W' } }),
   makeProduct({ id: 'blue-amplifier', name: 'Audio&Pro Professional Power Amplifier Blue', model: 'Professional Blue', image: imgBlueAmp, category: 'Amplifiers', subCategory: 'Power Amplifier' }),
   makeProduct({ id: 'xp-1500', name: 'Audio&Pro XP-1500', model: 'XP-1500', image: imgXp1500, gallery: [imgXp1500Alt], category: 'Amplifiers', subCategory: 'Power Amplifier', power: { max: '1500W', output: '1500W' }, featured: true }),
   makeProduct({ id: 'xp-1500-booster', name: 'Audio&Pro XP-1500 Booster', model: 'XP-1500 Booster', image: imgXp1500Alt, category: 'Amplifiers', subCategory: 'Power Amplifier', power: { max: '1500W', output: '1500W' } }),

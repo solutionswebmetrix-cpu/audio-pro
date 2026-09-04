@@ -37,7 +37,7 @@ export function ProductImage({ src, alt, className = '', imgClassName = '' }: Pr
           loading="lazy"
           onLoad={() => setLoaded(true)}
           onError={() => setError(true)}
-          className={`relative h-full w-full object-contain transition-opacity duration-500 ${
+          className={`relative h-full w-full object-contain object-center transition-opacity duration-500 ${
             loaded ? 'opacity-100' : 'opacity-0'
           } ${imgClassName}`}
         />
